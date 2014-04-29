@@ -83,6 +83,9 @@ NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 BOARD_EGL_CFG := device/htc/msm8660-common/configs/egl.cfg
 TARGET_DISPLAY_INSECURE_MM_HEAP := true
 
+# Use CM PowerHAL
+TARGET_POWERHAL_VARIANT := cm
+
 # Lights
 # legacy LIBLIGHT naming
 TARGET_PROVIDES_LIBLIGHT := true
